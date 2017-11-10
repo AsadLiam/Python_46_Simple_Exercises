@@ -1,6 +1,14 @@
 ########### 1 ###########
 def max_of_two_numbers(x, y):
     try:
+        if x > y:
+            return x
+        elif y > x:
+            return y
+        else:
+            return "they both are equal"
+
+    
 
 ########### 1 ###########
 ########### 1 ###########
